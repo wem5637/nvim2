@@ -15,12 +15,17 @@ local packer_bootstrap = ensure_packer()
 vim.cmd [[packadd packer.nvim]]
 
 return require('packer').startup(function(use)
+  use 'preservim/nerdtree'
+  use 'nvim-lua/plenary.nvim'
+  use 'nvim-telescope/telescope.nvim'
+  use 'prettier/vim-prettier'
   use 'ibhagwan/fzf-lua'
   use 'tanvirtin/monokai.nvim'
   use 'vim-airline/vim-airline'
   use 'vim-airline/vim-airline-themes'
   use 'enricobacis/vim-airline-clock'
   use 'mg979/vim-visual-multi'
+  use 'preservim/nerdtree'
   require('monokai').setup {}
   use 'neovim/nvim-lspconfig'
   use {

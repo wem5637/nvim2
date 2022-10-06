@@ -94,6 +94,11 @@ _G.packer_plugins = {
     path = "/Users/williammccracken/.local/share/nvim/site/pack/packer/start/monokai.nvim",
     url = "https://github.com/tanvirtin/monokai.nvim"
   },
+  nerdtree = {
+    loaded = true,
+    path = "/Users/williammccracken/.local/share/nvim/site/pack/packer/start/nerdtree",
+    url = "https://github.com/preservim/nerdtree"
+  },
   ["nvim-dap"] = {
     loaded = true,
     path = "/Users/williammccracken/.local/share/nvim/site/pack/packer/start/nvim-dap",
@@ -114,6 +119,16 @@ _G.packer_plugins = {
     path = "/Users/williammccracken/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
     url = "https://github.com/nvim-treesitter/nvim-treesitter"
   },
+  ["plenary.nvim"] = {
+    loaded = true,
+    path = "/Users/williammccracken/.local/share/nvim/site/pack/packer/start/plenary.nvim",
+    url = "https://github.com/nvim-lua/plenary.nvim"
+  },
+  ["telescope.nvim"] = {
+    loaded = true,
+    path = "/Users/williammccracken/.local/share/nvim/site/pack/packer/start/telescope.nvim",
+    url = "https://github.com/nvim-telescope/telescope.nvim"
+  },
   ["vim-airline"] = {
     loaded = true,
     path = "/Users/williammccracken/.local/share/nvim/site/pack/packer/start/vim-airline",
@@ -128,6 +143,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/williammccracken/.local/share/nvim/site/pack/packer/start/vim-airline-themes",
     url = "https://github.com/vim-airline/vim-airline-themes"
+  },
+  ["vim-prettier"] = {
+    loaded = true,
+    path = "/Users/williammccracken/.local/share/nvim/site/pack/packer/start/vim-prettier",
+    url = "https://github.com/prettier/vim-prettier"
   },
   ["vim-visual-multi"] = {
     loaded = true,

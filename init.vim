@@ -6,6 +6,11 @@ augroup end
 autocmd VimEnter * wincmd p
 autocmd BufWritePre *.tsx,*.ts Prettier
 
+"nerdtree
+autocmd VimEnter * NERDTree
+let NERDTreeShowHidden=1
+nnoremap <leader>n :NERDTreeFocus<CR>
+
 let mapleader = ","
 let g:neoformat_try_node_exe = 1
 let g:airline#extensions#clock#format = '%l:%M%p'
@@ -32,7 +37,6 @@ nnoremap <c-j> ddjP
 nnoremap <c-k> ddkP
 nnoremap <leader>sv :source $MYVIMRC<cr>
 nnoremap <leader>ev :vsplit $MYVIMRC<cr>
-nnoremap <leader>n :NERDTreeFocus<CR>
 nnoremap <leader>ff <cmd>Telescope find_files<cr>
 nnoremap <leader>fg <cmd>Telescope live_grep<cr>
 nnoremap <leader>fb <cmd>Telescope buffers<cr>
