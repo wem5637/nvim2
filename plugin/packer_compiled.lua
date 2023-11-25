@@ -49,8 +49,8 @@ local function save_profiles(threshold)
 end
 
 time([[Luarocks path setup]], true)
-local package_path_str = "/Users/williammccracken/.cache/nvim/packer_hererocks/2.1.0-beta3/share/lua/5.1/?.lua;/Users/williammccracken/.cache/nvim/packer_hererocks/2.1.0-beta3/share/lua/5.1/?/init.lua;/Users/williammccracken/.cache/nvim/packer_hererocks/2.1.0-beta3/lib/luarocks/rocks-5.1/?.lua;/Users/williammccracken/.cache/nvim/packer_hererocks/2.1.0-beta3/lib/luarocks/rocks-5.1/?/init.lua"
-local install_cpath_pattern = "/Users/williammccracken/.cache/nvim/packer_hererocks/2.1.0-beta3/lib/lua/5.1/?.so"
+local package_path_str = "/home/wem5637/.cache/nvim/packer_hererocks/2.1.0-beta3/share/lua/5.1/?.lua;/home/wem5637/.cache/nvim/packer_hererocks/2.1.0-beta3/share/lua/5.1/?/init.lua;/home/wem5637/.cache/nvim/packer_hererocks/2.1.0-beta3/lib/luarocks/rocks-5.1/?.lua;/home/wem5637/.cache/nvim/packer_hererocks/2.1.0-beta3/lib/luarocks/rocks-5.1/?/init.lua"
+local install_cpath_pattern = "/home/wem5637/.cache/nvim/packer_hererocks/2.1.0-beta3/lib/lua/5.1/?.so"
 if not string.find(package.path, package_path_str, 1, true) then
   package.path = package.path .. ';' .. package_path_str
 end
@@ -76,82 +76,52 @@ time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
   ["fzf-lua"] = {
     loaded = true,
-    path = "/Users/williammccracken/.local/share/nvim/site/pack/packer/start/fzf-lua",
+    path = "/home/wem5637/.local/share/nvim/site/pack/packer/start/fzf-lua",
     url = "https://github.com/ibhagwan/fzf-lua"
-  },
-  ["mason-lspconfig.nvim"] = {
-    loaded = true,
-    path = "/Users/williammccracken/.local/share/nvim/site/pack/packer/start/mason-lspconfig.nvim",
-    url = "https://github.com/williamboman/mason-lspconfig.nvim"
-  },
-  ["mason.nvim"] = {
-    loaded = true,
-    path = "/Users/williammccracken/.local/share/nvim/site/pack/packer/start/mason.nvim",
-    url = "https://github.com/williamboman/mason.nvim"
   },
   ["monokai.nvim"] = {
     loaded = true,
-    path = "/Users/williammccracken/.local/share/nvim/site/pack/packer/start/monokai.nvim",
+    path = "/home/wem5637/.local/share/nvim/site/pack/packer/start/monokai.nvim",
     url = "https://github.com/tanvirtin/monokai.nvim"
   },
   nerdtree = {
     loaded = true,
-    path = "/Users/williammccracken/.local/share/nvim/site/pack/packer/start/nerdtree",
+    path = "/home/wem5637/.local/share/nvim/site/pack/packer/start/nerdtree",
     url = "https://github.com/preservim/nerdtree"
-  },
-  ["nvim-dap"] = {
-    loaded = true,
-    path = "/Users/williammccracken/.local/share/nvim/site/pack/packer/start/nvim-dap",
-    url = "https://github.com/mfussenegger/nvim-dap"
-  },
-  ["nvim-lint"] = {
-    loaded = true,
-    path = "/Users/williammccracken/.local/share/nvim/site/pack/packer/start/nvim-lint",
-    url = "https://github.com/mfussenegger/nvim-lint"
-  },
-  ["nvim-lspconfig"] = {
-    loaded = true,
-    path = "/Users/williammccracken/.local/share/nvim/site/pack/packer/start/nvim-lspconfig",
-    url = "https://github.com/neovim/nvim-lspconfig"
-  },
-  ["nvim-treesitter"] = {
-    loaded = true,
-    path = "/Users/williammccracken/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
-    url = "https://github.com/nvim-treesitter/nvim-treesitter"
   },
   ["plenary.nvim"] = {
     loaded = true,
-    path = "/Users/williammccracken/.local/share/nvim/site/pack/packer/start/plenary.nvim",
+    path = "/home/wem5637/.local/share/nvim/site/pack/packer/start/plenary.nvim",
     url = "https://github.com/nvim-lua/plenary.nvim"
   },
   ["telescope.nvim"] = {
     loaded = true,
-    path = "/Users/williammccracken/.local/share/nvim/site/pack/packer/start/telescope.nvim",
+    path = "/home/wem5637/.local/share/nvim/site/pack/packer/start/telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
   },
   ["vim-airline"] = {
     loaded = true,
-    path = "/Users/williammccracken/.local/share/nvim/site/pack/packer/start/vim-airline",
+    path = "/home/wem5637/.local/share/nvim/site/pack/packer/start/vim-airline",
     url = "https://github.com/vim-airline/vim-airline"
   },
   ["vim-airline-clock"] = {
     loaded = true,
-    path = "/Users/williammccracken/.local/share/nvim/site/pack/packer/start/vim-airline-clock",
+    path = "/home/wem5637/.local/share/nvim/site/pack/packer/start/vim-airline-clock",
     url = "https://github.com/enricobacis/vim-airline-clock"
   },
   ["vim-airline-themes"] = {
     loaded = true,
-    path = "/Users/williammccracken/.local/share/nvim/site/pack/packer/start/vim-airline-themes",
+    path = "/home/wem5637/.local/share/nvim/site/pack/packer/start/vim-airline-themes",
     url = "https://github.com/vim-airline/vim-airline-themes"
   },
   ["vim-prettier"] = {
     loaded = true,
-    path = "/Users/williammccracken/.local/share/nvim/site/pack/packer/start/vim-prettier",
+    path = "/home/wem5637/.local/share/nvim/site/pack/packer/start/vim-prettier",
     url = "https://github.com/prettier/vim-prettier"
   },
   ["vim-visual-multi"] = {
     loaded = true,
-    path = "/Users/williammccracken/.local/share/nvim/site/pack/packer/start/vim-visual-multi",
+    path = "/home/wem5637/.local/share/nvim/site/pack/packer/start/vim-visual-multi",
     url = "https://github.com/mg979/vim-visual-multi"
   }
 }

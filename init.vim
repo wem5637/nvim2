@@ -48,4 +48,4 @@ nnoremap <leader>cwp :let @+ = expand("%:p")
 syntax on
 
 " colorscheme monokai
-lua require('plugins')
+" lua require('plugin')
